@@ -1,0 +1,116 @@
+//style for the circleWrapper
+#circleWrapper {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+// style for the outerCircle class
+.outerCircle {
+  height: 94%;
+  border: solid black 5px;
+  border-radius: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+//style for the innerCircle class
+.innerCircle {
+  height: 92%;
+  width: 94%;
+  border-radius: 100%;
+  top: 3%;
+  left: 3%;
+  z-index: 2;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+//style for the "liquid" (the content in the circle) class
+.liquid {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  height: 92%;
+  width: 94%;
+  border-radius: 50%;
+  z-index: 3;
+  box-shadow: inset 0 0 50px #000;
+  overflow: clip;
+}
+.liquid:before {
+  content: "";
+  position: absolute;
+  top: -150%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  border-radius: 40%;
+  background: #111;
+  opacity: 0.8;
+  overflow: hidden;
+  animation: waveEffectFront 12s linear infinite;
+  transform-origin: center;
+}
+
+.liquid:after {
+  content: "";
+  position: absolute;
+  top: -150%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  border-radius: 40%;
+  background: #111;
+  opacity: 0.9;
+  overflow: hidden;
+  animation: waveEffectBehind 10s linear infinite;
+  transform-origin: center;
+}
+
+//this animation makes the before element mooves in a circular way to create a wave effect
+@keyframes waveEffectFront {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+//this one is used to make a "3D" like effect
+@keyframes waveEffectBehind {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+//this animation will be used to change the liquid color according to the percentage
+@keyframes changeLiquidColor {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(250, 173, 19);
+  }
+  100% {
+    background-color: rgb(20, 168, 30);
+  }
+}
+
+//this animation will be used to make the "before" and "after" elements move according to the liquid
+@keyframes moveWaves {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
