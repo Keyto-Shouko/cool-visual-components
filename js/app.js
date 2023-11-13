@@ -1,5 +1,5 @@
-import "../style/index.scss"
+import { Circle } from "../lib/index.js";
 
-import {sum} from "../lib";
-
-console.log(sum(2,3))
+const circle = new Circle(document.getElementById("circleWrapper"));
+circle.draw();
+circle.changeLiquidColorOnPercentage(50);
