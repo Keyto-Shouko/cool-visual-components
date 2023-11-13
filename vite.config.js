@@ -8,9 +8,9 @@ module.exports = {
       ? {
           lib: {
             entry: path.resolve(__dirname, "lib/index.js"),
-            name: "coolComponentLib",
+            name: "cool-visual-components",
             formats: ["es", "umd"],
-            fileName: (format) => `lib.${format}.js`,
+            fileName: (format) => `cool-visual-components.${format}.js`,
           },
         }
       : {}),
@@ -23,7 +23,7 @@ module.exports = {
           }
         : {
             output: {
-              assetFileNames: "lib.css",
+              assetFileNames: "cool-visual-components.css",
             },
           }),
     },
