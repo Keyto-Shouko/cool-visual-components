@@ -55,13 +55,15 @@ myVar.changeLiquidColorOnPercentage(50);
 
 And you're done !
 
+You can also check the doc for other components [here](./doc/componentDoc.md)
+
 ## Contributing
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Keyto-Shouko/cool-visual-components/issues)
 
 Use [Github issues](https://github.com/Keyto-Shouko/cool-visual-components/issues) for any requests.
 
-Pull requests are welcomed, learn how to [contribute](https://www.youtube.com/results?search_query=rick+rool+doom+version).
+Pull requests are welcomed, learn how to [contribute](https://github.com/Keyto-Shouko/cool-visual-components/blob/main/.github/CONTRIBUTING.md).
 
 ### Changelog
 

@@ -29,7 +29,7 @@ your [pull requests](https://help.github.com/articles/creating-a-pull-request).
 
 ## Documentation
 
-Documentation for Cool Visual Components (hosted at http://immutable-js.github.io/immutable-js) will evolve with the components added in the [gallery](https://cool-visual-components.vercel.app/)
+Documentation for Cool Visual Components (hosted at https://github.com/Keyto-Shouko/cool-visual-components/blob/main/doc/componentDoc.md) will evolve with the components added in the [gallery](https://cool-visual-components.vercel.app/)
 
 ## Coding Style
 
