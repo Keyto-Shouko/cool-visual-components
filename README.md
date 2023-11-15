@@ -15,13 +15,13 @@ Here is the [Gallery](https://cool-visual-components.vercel.app/) if you want to
 - [License](#license)
 - [Thanks](#thanks)
 
-## Introduction
+## Introduction :pizza:
 
 All this comes from a school project. I needed an idea for an open source project so i did this repository.
 
 It will serve as a gallery for visual components people may use later. Since it's a gallery you can also show how talented and creative you are !
 
-## Getting started
+## Getting started :airplane:
 
 Install `cool-visual-components` using your favorite package manager
 
@@ -60,12 +60,12 @@ And you're done !
 
 You can also check the doc for other components [here](./doc/componentDoc.md)
 
-## Documentation
+## Documentation :green_book:
 
 As featured in the [contributing](https://github.com/Keyto-Shouko/cool-visual-components/blob/main/.github/CONTRIBUTING.md) file, the documentation will evolve with the components added to it.
 Check the doc [here](https://github.com/Keyto-Shouko/cool-visual-components/blob/main/doc/componentDoc.md#circle-with-wave-effect)
 
-## Contributing
+## Contributing :hammer:
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Keyto-Shouko/cool-visual-components/issues)
 
@@ -73,15 +73,15 @@ Use [Github issues](https://github.com/Keyto-Shouko/cool-visual-components/issue
 
 Pull requests are welcomed, learn how to [contribute](https://github.com/Keyto-Shouko/cool-visual-components/blob/main/.github/CONTRIBUTING.md).
 
-### Changelog
+### Changelog :pager:
 
 Changes are tracked as [Github releases](https://github.com/Keyto-Shouko/cool-visual-components/releases).
 
-### License
+### License :scroll:
 
 This project is [MIT-licensed](./LICENSE).
 
-### Thanks
+### Thanks :blue_heart:
 
 [Alban Crepel](https://github.com/AlbanCrepel) for the introduction to the Open Source world.
 
@@ -93,3 +93,7 @@ This project is [MIT-licensed](./LICENSE).
 [README.md]: https://github.com/Keyto-Shouko/cool-visual-components/blob/main/README.md
 [issue]: https://github.com/Keyto-Shouko/cool-visual-components/issues
 [pull request]: https://github.com/Keyto-Shouko/cool-visual-components/pulls
+
+### Contact :telephone_receiver:
+
+Bruno Alves Carvalho - [My Discord](https://discord.com/users/277771946421125120) - [balvesca@gmail.com](mailto:balvesca@gmail.com)
