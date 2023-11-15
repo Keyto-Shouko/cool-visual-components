@@ -7,6 +7,7 @@ Feel free to contribute !
 
 - [Introduction](#introduction)
 - [Getting started](#getting-started)
+- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [Changelog](#changelog)
 - [License](#license)
@@ -56,6 +57,11 @@ myVar.changeLiquidColorOnPercentage(50);
 And you're done !
 
 You can also check the doc for other components [here](./doc/componentDoc.md)
+
+## Documentation
+
+As featured in the [contributing](https://github.com/Keyto-Shouko/cool-visual-components/blob/main/.github/CONTRIBUTING.md) file, the documentation will evolve with the components added to it.
+Check the doc [here](https://github.com/Keyto-Shouko/cool-visual-components/blob/main/doc/componentDoc.md#circle-with-wave-effect)
 
 ## Contributing
 
