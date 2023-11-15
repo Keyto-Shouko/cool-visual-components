@@ -1,12 +1,18 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "keywords": [
     "vite",
     "animations",
     "components"
   ],
   "name": "cool-visual-components",
-  "main": "dist/cool-visual-components.umd.js",
+  "main": "dist/lib/cool-visual-components.umd.js",
+  "files": [
+    "dist/lib/"
+  ],
+  "aliases": {
+    "cvc": "dist/lib/cool-visual-components.umd.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build && vite build --mode=lib",
