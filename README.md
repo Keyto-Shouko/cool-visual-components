@@ -3,6 +3,8 @@
 This repository acts as a gallery that stores visual components like loadbards, cursors etc. for everyone to use
 Feel free to contribute !
 
+Here is the [Gallery](https://cool-visual-components.vercel.app/) if you want to check what is already done.
+
 **Table of contents:**
 
 - [Introduction](#introduction)
