@@ -16,7 +16,7 @@ How to use it in your code :
 Head to your main html file (probably index.html), and add this
 
 ```html
-<div id="yourID"></div></td>
+<div id="yourID"></div>
 ```
 
 Then require the package in your the js file you're using with your html
